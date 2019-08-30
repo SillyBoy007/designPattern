@@ -1,4 +1,4 @@
-package com.wxy.learn.design.create.factory.abs;
+package com.wxy.learn.design.create.factory.abstra;
 
 import com.wxy.learn.design.create.factory.component.Cpu;
 import com.wxy.learn.design.create.factory.component.Mainboard;
