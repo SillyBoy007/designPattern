@@ -1,18 +1,20 @@
-package com.wxy.learn.design.create.factory.demo.abs;
+package com.wxy.learn.design.create.factory.abstra;
 
 import com.wxy.learn.design.create.factory.component.Cpu;
 import com.wxy.learn.design.create.factory.component.Mainboard;
 import com.wxy.learn.design.create.factory.component.impl.IntelCpu;
 import com.wxy.learn.design.create.factory.component.impl.IntelMainboard;
 
-public class IntelFactory  implements AbstractFactory{
+public class IntelFactory implements AbstractFactory {
     @Override
     public Cpu createCpu() {
-        return new IntelCpu(222);
+        // TODO Auto-generated method stub
+        return new IntelCpu(755);
     }
 
     @Override
-    public Mainboard createMainBoard() {
-        return new IntelMainboard(222);
+    public Mainboard createMainboard() {
+        // TODO Auto-generated method stub
+        return new IntelMainboard(755);
     }
 }
