@@ -3,6 +3,8 @@
 * [抽象工厂模式（详解版）](http://c.biancheng.net/view/1351.html)
 * [工厂方法模式的应用场景](https://blog.csdn.net/buyulian/article/details/79203880)
 * [简单工厂&工厂方法&抽象工厂的区别](https://blog.csdn.net/auuea/article/details/84673570)
+* [工厂模式优缺点](https://www.runoob.com/design-pattern/factory-pattern.html)
+* [抽象工厂优缺点](https://www.runoob.com/design-pattern/abstract-factory-pattern.html)
 
 ### 2.在什么情况下应当使用抽象工厂模式
 * 一个系统不应当依赖于产品类实例如何被创建、组合和表达的细节，这对于所有形态的工厂模式都是重要的。
