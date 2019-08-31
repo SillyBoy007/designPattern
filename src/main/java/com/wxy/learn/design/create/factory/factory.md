@@ -1,6 +1,7 @@
 ### 1.参考链接
 * [《JAVA与模式》之抽象工厂模式](https://www.cnblogs.com/java-my-life/archive/2012/03/28/2418836.html)
 * [抽象工厂模式（详解版）](http://c.biancheng.net/view/1351.html)
+* [工厂方法模式的应用场景](https://blog.csdn.net/buyulian/article/details/79203880)
 
 ### 2.在什么情况下应当使用抽象工厂模式
 * 一个系统不应当依赖于产品类实例如何被创建、组合和表达的细节，这对于所有形态的工厂模式都是重要的。
