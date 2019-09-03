@@ -1,11 +1,3 @@
-### 参考链接
-* [《JAVA与模式》之抽象工厂模式](https://www.cnblogs.com/java-my-life/archive/2012/03/28/2418836.html)
-* [抽象工厂模式（详解版）](http://c.biancheng.net/view/1351.html)
-* [工厂方法模式的应用场景](https://blog.csdn.net/buyulian/article/details/79203880)
-* [简单工厂&工厂方法&抽象工厂的区别](https://blog.csdn.net/auuea/article/details/84673570)
-* [工厂模式优缺点](https://www.runoob.com/design-pattern/factory-pattern.html)
-* [抽象工厂优缺点](https://www.runoob.com/design-pattern/abstract-factory-pattern.html)
-
 ### 1.什么是工厂模式
 * 工厂模式（Factory Pattern）是 Java 中最常用的设计模式之一。这种类型的设计模式属于创建型模式，它提供了一种创建对象的最佳方式。
 在工厂模式中，我们在创建对象时不会对客户端暴露创建逻辑，并且是通过使用一个共同的接口来指向新创建的对象。
@@ -21,11 +13,21 @@
 * 注意事项：作为一种创建类模式，在任何需要生成复杂对象的地方，都可以使用工厂方法模式。有一点需要注意的地方就是复杂对象适合使用工厂模式，而简单对象，特别是只需要通过 new 就可以完成创建的对象，无需使用工厂模式。如果使用工厂模式，就需要引入一个工厂类，会增加系统的复杂度。
 
 
-### 3.在什么情况下应当使用抽象工厂模式
+### 2.在什么情况下应当使用抽象工厂模式
 * 一个系统不应当依赖于产品类实例如何被创建、组合和表达的细节，这对于所有形态的工厂模式都是重要的。
 * 这个系统的产品有多于一个的产品族，而系统只消费其中某一族的产品。
 * 同属于同一个产品族的产品是在一起使用的，这一约束必须在系统的设计中体现出来。（比如：Intel主板必须使用Intel CPU、Intel芯片组）
 * 系统提供一个产品类的库，所有的产品以同样的接口出现，从而使客户端不依赖于实现。
+
+### 3.工厂模式角色
+* Abstract Product 抽象产品(族)
+* Product 具体产品(族)
+* Abstract Factory 抽象工厂
+* Factory 具体工厂
+* Engineer 组装工程师
+* Client 客户端
+
+
 
 ### 4.工厂模式的优点
 * 分离接口和实现。客户端使用抽象工厂来创建需要的对象，而客户端根本就不知道具体的实现是谁，客户端只是面向产品的接口编程而已。也就是说，客户端从具体的产品实现中解耦。
@@ -33,5 +35,14 @@
 
 ### 5.工厂模式的缺点
 * 不太容易扩展新的产品。如果需要给整个产品族添加一个新的产品，那么就需要修改抽象工厂，这样就会导致修改所有的工厂实现类。
+
+
+### 参考链接
+* [《JAVA与模式》之抽象工厂模式](https://www.cnblogs.com/java-my-life/archive/2012/03/28/2418836.html)
+* [抽象工厂模式（详解版）](http://c.biancheng.net/view/1351.html)
+* [工厂方法模式的应用场景](https://blog.csdn.net/buyulian/article/details/79203880)
+* [简单工厂&工厂方法&抽象工厂的区别](https://blog.csdn.net/auuea/article/details/84673570)
+* [工厂模式优缺点](https://www.runoob.com/design-pattern/factory-pattern.html)
+* [抽象工厂优缺点](https://www.runoob.com/design-pattern/abstract-factory-pattern.html)
 
 
