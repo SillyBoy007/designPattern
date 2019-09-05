@@ -20,4 +20,19 @@ public class Client {
         Prototype copyPrototype = prototype.clone();
 
     }
+
+    public static void main(String[] args) {
+        CopyTypeOne prototype = new CopyTypeOne();
+        prototype.setName("jk");
+        Prototype clone = prototype.clone();
+
+        System.out.println(clone);
+
+        CopyTypeTwo prototype2 = new CopyTypeTwo();
+        prototype2.setAge(1);
+        Prototype clone2 = prototype2.clone();
+
+        System.out.println(clone2);
+
+    }
 }

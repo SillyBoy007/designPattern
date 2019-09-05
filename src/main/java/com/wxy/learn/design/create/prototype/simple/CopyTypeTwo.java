@@ -1,12 +1,14 @@
 package com.wxy.learn.design.create.prototype.simple;
 
 import lombok.Data;
+import lombok.ToString;
 
 
 /**
  * 具体原型角色
  */
 @Data
+@ToString
 public class CopyTypeTwo implements Prototype {
     private Integer age;
 

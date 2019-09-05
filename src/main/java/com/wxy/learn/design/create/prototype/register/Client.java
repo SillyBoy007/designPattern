@@ -34,6 +34,7 @@ public class Client {
             Prototype p5 = PrototypeManager.getPrototype("p1").clone();
             p5.setName("王五");
             System.out.println("第三个实例：" + p5);
+
         }catch(Exception e){
             e.printStackTrace();
         }
