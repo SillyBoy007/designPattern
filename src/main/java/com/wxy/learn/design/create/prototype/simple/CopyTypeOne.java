@@ -2,11 +2,14 @@ package com.wxy.learn.design.create.prototype.simple;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
+
 /**
  * 具体原型角色
  */
 @Data
-public class CopyTypeOne implements Prototype {
+public class CopyTypeOne implements Prototype,Serializable {
     private String name;
 
     @Override
