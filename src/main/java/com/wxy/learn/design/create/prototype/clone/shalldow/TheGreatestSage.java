@@ -1,4 +1,4 @@
-package com.wxy.learn.design.create.prototype.monkey.shalldow;
+package com.wxy.learn.design.create.prototype.clone.shalldow;
 
 /**
  * 本人

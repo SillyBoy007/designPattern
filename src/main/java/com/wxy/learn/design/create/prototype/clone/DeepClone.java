@@ -1,4 +1,4 @@
-package com.wxy.learn.design.create.prototype;
+package com.wxy.learn.design.create.prototype.clone;
 
 
 import com.wxy.learn.design.create.prototype.register.ConcretePrototype1;

@@ -1,8 +1,10 @@
-package com.wxy.learn.design.create.prototype.monkey.shalldow;
+package com.wxy.learn.design.create.prototype.clone.deep;
 
+
+import java.io.*;
 import java.util.Date;
 
-public class Monkey implements Cloneable {
+public class Monkey implements Cloneable,Serializable {
     //身高
     private int height;
     //体重
@@ -16,7 +18,7 @@ public class Monkey implements Cloneable {
      */
     public Monkey(){
         this.birthDate = new Date();
-        this.staff = new GoldRingedStaff();
+        staff = new GoldRingedStaff();
     }
     /**
      * 克隆方法
@@ -32,6 +34,16 @@ public class Monkey implements Cloneable {
         } finally {
             return temp;
         }
+    }
+    public  Object deepClone() throws IOException, ClassNotFoundException{
+        //将对象写到流里
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+        ObjectOutputStream oos = new ObjectOutputStream(bos);
+        oos.writeObject(this);
+        //从流里读回来
+        ByteArrayInputStream bis = new ByteArrayInputStream(bos.toByteArray());
+        ObjectInputStream ois = new ObjectInputStream(bis);
+        return ois.readObject();
     }
     public int getHeight() {
         return height;

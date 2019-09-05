@@ -1,4 +1,4 @@
-package com.wxy.learn.design.create.prototype.monkey.deep;
+package com.wxy.learn.design.create.prototype.clone.deep;
 
 import java.io.Serializable;
 
