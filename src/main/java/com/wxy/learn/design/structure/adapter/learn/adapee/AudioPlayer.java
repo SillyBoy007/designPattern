@@ -1,5 +1,11 @@
-package com.wxy.learn.design.structure.adapter.learn;
+package com.wxy.learn.design.structure.adapter.learn.adapee;
 
+import com.wxy.learn.design.structure.adapter.learn.adapter.MediaAdapter;
+
+/**
+ * 普通播放器实现类
+ * 源(Adapee)角色
+ */
 public class AudioPlayer implements MediaPlayer {
     MediaAdapter mediaAdapter;
 

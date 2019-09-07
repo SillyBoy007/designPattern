@@ -1,5 +1,14 @@
-package com.wxy.learn.design.structure.adapter.learn;
+package com.wxy.learn.design.structure.adapter.learn.adapter;
 
+import com.wxy.learn.design.structure.adapter.learn.target.AdvancedMediaPlayer;
+import com.wxy.learn.design.structure.adapter.learn.adapee.MediaPlayer;
+import com.wxy.learn.design.structure.adapter.learn.adapee.Mp4Player;
+import com.wxy.learn.design.structure.adapter.learn.adapee.VlcPlayer;
+
+/**
+ * 普通播放器适配类
+ *
+ */
 public class MediaAdapter implements MediaPlayer {
     AdvancedMediaPlayer advancedMusicPlayer;
 

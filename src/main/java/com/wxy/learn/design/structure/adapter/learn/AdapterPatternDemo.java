@@ -1,5 +1,10 @@
 package com.wxy.learn.design.structure.adapter.learn;
 
+import com.wxy.learn.design.structure.adapter.learn.adapee.AudioPlayer;
+
+/**
+ * 使用audioPlayer播放不同的音屏
+ */
 public class AdapterPatternDemo {
     public static void main(String[] args) {
         AudioPlayer audioPlayer = new AudioPlayer();
