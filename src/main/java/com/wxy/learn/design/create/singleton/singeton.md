@@ -36,6 +36,6 @@
 
 
 ### 参考链接
+* [单例模式优简介](https://www.runoob.com/design-pattern/singleton-pattern.html)
 * [《JAVA与模式》之单例模式](https://www.cnblogs.com/java-my-life/archive/2012/03/31/2425631.html)
 * [单例模式及其应用场景](https://blog.csdn.net/Deronn/article/details/88420999)
-* [单例模式优缺点](https://www.runoob.com/design-pattern/singleton-pattern.html)

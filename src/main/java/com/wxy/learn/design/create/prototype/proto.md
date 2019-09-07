@@ -51,5 +51,5 @@
 
 
 ### 参考链接
-* [《JAVA与模式》之原型模式](https://www.cnblogs.com/java-my-life/archive/2012/04/11/2439387.html)
 * [原型模式简介](https://www.runoob.com/design-pattern/prototype-pattern.html)
+* [《JAVA与模式》之原型模式](https://www.cnblogs.com/java-my-life/archive/2012/04/11/2439387.html)

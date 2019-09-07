@@ -38,11 +38,12 @@
 
 
 ### 参考链接
+* [工厂模式简介](https://www.runoob.com/design-pattern/factory-pattern.html)
+* [抽象工厂简介](https://www.runoob.com/design-pattern/abstract-factory-pattern.html)
 * [《JAVA与模式》之抽象工厂模式](https://www.cnblogs.com/java-my-life/archive/2012/03/28/2418836.html)
 * [抽象工厂模式（详解版）](http://c.biancheng.net/view/1351.html)
 * [工厂方法模式的应用场景](https://blog.csdn.net/buyulian/article/details/79203880)
 * [简单工厂&工厂方法&抽象工厂的区别](https://blog.csdn.net/auuea/article/details/84673570)
-* [工厂模式优缺点](https://www.runoob.com/design-pattern/factory-pattern.html)
-* [抽象工厂优缺点](https://www.runoob.com/design-pattern/abstract-factory-pattern.html)
+
 
 
