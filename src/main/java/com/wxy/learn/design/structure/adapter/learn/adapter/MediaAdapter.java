@@ -2,8 +2,8 @@ package com.wxy.learn.design.structure.adapter.learn.adapter;
 
 import com.wxy.learn.design.structure.adapter.learn.target.AdvancedMediaPlayer;
 import com.wxy.learn.design.structure.adapter.learn.adapee.MediaPlayer;
-import com.wxy.learn.design.structure.adapter.learn.adapee.Mp4Player;
-import com.wxy.learn.design.structure.adapter.learn.adapee.VlcPlayer;
+import com.wxy.learn.design.structure.adapter.learn.target.Mp4Player;
+import com.wxy.learn.design.structure.adapter.learn.target.VlcPlayer;
 
 /**
  * 普通播放器适配类

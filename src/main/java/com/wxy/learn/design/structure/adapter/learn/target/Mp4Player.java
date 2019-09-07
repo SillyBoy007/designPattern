@@ -1,10 +1,8 @@
-package com.wxy.learn.design.structure.adapter.learn.adapee;
-
-import com.wxy.learn.design.structure.adapter.learn.target.AdvancedMediaPlayer;
+package com.wxy.learn.design.structure.adapter.learn.target;
 
 /**
  * Mp4播放类
- * 源(Adapee)角色
+ * 目标角色实现类
  */
 public class Mp4Player implements AdvancedMediaPlayer {
 

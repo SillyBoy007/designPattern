@@ -1,10 +1,9 @@
-package com.wxy.learn.design.structure.adapter.learn.adapee;
+package com.wxy.learn.design.structure.adapter.learn.target;
 
-import com.wxy.learn.design.structure.adapter.learn.target.AdvancedMediaPlayer;
 
 /**
  * vlc播放类
- * 源(Adapee)角色
+ * 目标角色实现类
  */
 public class VlcPlayer implements AdvancedMediaPlayer {
     @Override
