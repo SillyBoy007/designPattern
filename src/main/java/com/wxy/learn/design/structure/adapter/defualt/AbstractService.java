@@ -1,4 +1,4 @@
-package com.wxy.learn.design.structure.adapter.def;
+package com.wxy.learn.design.structure.adapter.defualt;
 
 /**
  * 缺省适配器
