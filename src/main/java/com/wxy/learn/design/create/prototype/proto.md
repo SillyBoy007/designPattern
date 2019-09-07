@@ -48,3 +48,8 @@
 原型模式最主要的缺点是每一个类都必须配备一个克隆方法。
 配备克隆方法需要对类的功能进行通盘考虑，这对于全新的类来说不是很难，而对于已经有的类不一定很容易，
 特别是当一个类引用不支持序列化的间接对象，或者引用含有循环结构的时候。
+
+
+### 参考链接
+* [《JAVA与模式》之原型模式](https://www.cnblogs.com/java-my-life/archive/2012/04/11/2439387.html)
+* [原型模式简介](https://www.runoob.com/design-pattern/prototype-pattern.html)
