@@ -1,9 +1,9 @@
-package com.wxy.learn.design.structure.composite.learn;
+package com.wxy.learn.design.structure.composite.learn.invisible;
 
 /**
- * 树叶构件角色类
+ * 　　树叶构件角色类，此类将implements Conponent改为extends Conponent，其他地方无变化。
  */
-public class Leaf implements Component {
+public class Leaf extends Component {
     /**
      * 叶子对象的名字
      */
@@ -24,5 +24,4 @@ public class Leaf implements Component {
         // TODO Auto-generated method stub
         System.out.println(preStr + "-" + name);
     }
-
 }

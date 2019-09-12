@@ -1,5 +1,8 @@
-package com.wxy.learn.design.structure.composite.learn;
+package com.wxy.learn.design.structure.composite.learn.save;
 
+/**
+ * 安全式合成模式的结构
+ */
 public class Client {
     public static void main(String[]args){
         Composite root = new Composite("服装");

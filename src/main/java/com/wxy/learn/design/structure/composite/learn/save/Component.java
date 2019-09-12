@@ -1,4 +1,4 @@
-package com.wxy.learn.design.structure.composite.learn;
+package com.wxy.learn.design.structure.composite.learn.save;
 
 /**
  * 　抽象构件角色类
