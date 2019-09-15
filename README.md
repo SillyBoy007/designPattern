@@ -2,7 +2,7 @@
 
 ### 参考链接:
 * [设计模式git版](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)
-* [设计模式6大原则](https://blog.csdn.net/q291611265/article/details/48465113)
+* [设计模式6大原则](https://www.jianshu.com/p/068b2d0ce4e6)
 * [Java 23种设计模式](https://www.cnblogs.com/foryang/p/5849402.html)
 
 ### 设计模式分类:
