@@ -1,5 +1,10 @@
-package com.wxy.learn.design.structure.flyweight.learn;
+package com.wxy.learn.design.structure.flyweight.learn.concreteFlyweight;
 
+import com.wxy.learn.design.structure.flyweight.learn.flyweight.Shape;
+
+/**
+ *  具体享元(ConcreteFlyweight)角色：实现抽象享元角色所规定出的接口。如果有内蕴状态的话，必须负责为内蕴状态提供存储空间。
+ */
 public class Circle implements Shape {
     private String color;
     private int x;
