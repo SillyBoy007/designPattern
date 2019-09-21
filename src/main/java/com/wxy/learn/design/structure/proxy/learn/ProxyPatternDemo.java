@@ -1,5 +1,8 @@
 package com.wxy.learn.design.structure.proxy.learn;
 
+/**
+ * 客户端
+ */
 public class ProxyPatternDemo {
     public static void main(String[] args) {
         Image image = new ProxyImage("test_10mb.jpg");
