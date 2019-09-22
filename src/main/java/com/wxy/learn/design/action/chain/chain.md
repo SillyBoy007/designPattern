@@ -42,5 +42,4 @@
 
 ### 参考链接
 [责任链模式简介](https://www.runoob.com/design-pattern/chain-of-responsibility-pattern.html)
-[《JAVA与模式》之责任链模式](https://www.cnblogs.com/java-m/archive/2012/05/28/2516865.html)
-y-life
+[《JAVA与模式》之责任链模式](https://www.cnblogs.com/java-my-life/archive/2012/05/28/2516865.html)
