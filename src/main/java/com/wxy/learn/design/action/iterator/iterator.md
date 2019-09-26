@@ -19,3 +19,4 @@
 
 ### 参考链接
 * [迭代器模式简介](https://www.runoob.com/design-pattern/iterator-pattern.html)
+* [《JAVA与模式》之迭代子模式](https://www.cnblogs.com/java-my-life/archive/2012/05/22/2511506.html)
