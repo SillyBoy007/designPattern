@@ -5,10 +5,8 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class Client {
     public static void main(String[] args) {
-        AbstractCardPartner A = new PartnerA();
-        A.Money = 20;
-        AbstractCardPartner B = new PartnerB();
-        B.Money = 20;
+        AbstractCardPartner A = new PartnerA(30);
+        AbstractCardPartner B = new PartnerB(30);
 
         Mediator mediator = new Mediator(A,B);
         // A赢了B的钱减少
