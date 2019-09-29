@@ -1,5 +1,8 @@
 package com.wxy.learn.design.action.memento.demo;
 
+/**
+ * 发起人（Originator）角色
+ */
 public class Originator {
     private String state;
 
