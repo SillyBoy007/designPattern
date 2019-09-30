@@ -1,11 +1,11 @@
-package com.wxy.learn.design.action.observer.demo;
+package com.wxy.learn.design.action.observer.push;
 
 /**
  * 观察者模式客户端类
  */
 public class ObserverPatternDemo {
     public static void main(String[] args) {
-        Subject subject = new Subject();
+        Subject subject = new ConcreteSubject();
 
         new HexaObserver(subject);
         new OctalObserver(subject);
