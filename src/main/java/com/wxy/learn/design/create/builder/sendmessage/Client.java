@@ -7,7 +7,7 @@ import com.wxy.learn.design.create.builder.sendmessage.product.AutoMessage;
 
 public class Client {
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+        // TODO Auto-generated methodfactory stub
         Builder builder = new GoodbyeBuilder();
         Director director = new Director(builder);
         AutoMessage message = director.construct("toAddress@126.com", "fromAddress@126.com");

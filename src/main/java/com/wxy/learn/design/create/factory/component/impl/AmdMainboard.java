@@ -16,7 +16,7 @@ public class AmdMainboard implements Mainboard {
     }
     @Override
     public void installCPU() {
-        // TODO Auto-generated method stub
+        // TODO Auto-generated methodfactory stub
         System.out.println("AMD主板的CPU插槽孔数是：" + cpuHoles);
     }
 }

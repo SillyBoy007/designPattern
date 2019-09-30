@@ -21,7 +21,7 @@ public class Leaf extends Component {
      */
     @Override
     public void printStruct(String preStr) {
-        // TODO Auto-generated method stub
+        // TODO Auto-generated methodfactory stub
         System.out.println(preStr + "-" + name);
     }
 }

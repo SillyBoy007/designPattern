@@ -12,7 +12,7 @@ public class IntelCpu implements Cpu {
     }
     @Override
     public void calculate() {
-        // TODO Auto-generated method stub
+        // TODO Auto-generated methodfactory stub
         System.out.println("Intel CPU的针脚数：" + pins);
     }
 }

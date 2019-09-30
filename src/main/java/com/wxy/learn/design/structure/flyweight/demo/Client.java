@@ -5,7 +5,7 @@ package com.wxy.learn.design.structure.flyweight.demo;
  */
 public class Client {
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+        // TODO Auto-generated methodfactory stub
         FlyweightFactory factory = new FlyweightFactory();
         Flyweight fly = factory.factory(new Character('a'));
         fly.operation("First Call");
