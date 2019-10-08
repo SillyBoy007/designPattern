@@ -1,4 +1,4 @@
-package com.wxy.learn.design.structure.strategy.demo;
+package com.wxy.learn.design.action.strategy.demo;
 
 public class OperationAdd implements Strategy{
     @Override

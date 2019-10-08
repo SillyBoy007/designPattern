@@ -1,4 +1,4 @@
-package com.wxy.learn.design.structure.strategy.example;
+package com.wxy.learn.design.action.strategy.example;
 
 public class PrimaryMemberStrategy implements MemberStrategy  {
     @Override
