@@ -1,8 +1,8 @@
-package com.wxy.learn.design.create.factory.simple;
+package com.wxy.learn.design.create.abstractfactory.simple;
 
-import com.wxy.learn.design.create.factory.component.impl.AmdMainboard;
-import com.wxy.learn.design.create.factory.component.impl.IntelMainboard;
-import com.wxy.learn.design.create.factory.component.Mainboard;
+import com.wxy.learn.design.create.abstractfactory.component.impl.AmdMainboard;
+import com.wxy.learn.design.create.abstractfactory.component.impl.IntelMainboard;
+import com.wxy.learn.design.create.abstractfactory.component.Mainboard;
 
 public class MainboardFactory {
     public static Mainboard createMainboard(int type){

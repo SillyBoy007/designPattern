@@ -1,6 +1,6 @@
-package com.wxy.learn.design.create.factory.component.impl;
+package com.wxy.learn.design.create.abstractfactory.component.impl;
 
-import com.wxy.learn.design.create.factory.component.Cpu;
+import com.wxy.learn.design.create.abstractfactory.component.Cpu;
 
 public class IntelCpu implements Cpu {
     /**

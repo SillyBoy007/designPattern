@@ -1,4 +1,4 @@
-package com.wxy.learn.design.create.factory.simple;
+package com.wxy.learn.design.create.abstractfactory.simple;
 
 /**
  * 虽然通过简单工厂方法解决了：对于装机工程师，只知CPU和主板的接口，而不知道具体实现的问题。

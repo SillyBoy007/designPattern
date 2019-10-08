@@ -1,4 +1,4 @@
-package com.wxy.learn.design.create.factory.abstra;
+package com.wxy.learn.design.create.abstractfactory.abstra;
 
 /**
  * 抽象工厂模式的优点

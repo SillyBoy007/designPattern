@@ -1,6 +1,6 @@
-package com.wxy.learn.design.create.factory.component.impl;
+package com.wxy.learn.design.create.abstractfactory.component.impl;
 
-import com.wxy.learn.design.create.factory.component.Mainboard;
+import com.wxy.learn.design.create.abstractfactory.component.Mainboard;
 
 public class AmdMainboard implements Mainboard {
     /**

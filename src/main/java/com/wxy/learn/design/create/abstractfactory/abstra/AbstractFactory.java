@@ -1,7 +1,7 @@
-package com.wxy.learn.design.create.factory.abstra;
+package com.wxy.learn.design.create.abstractfactory.abstra;
 
-import com.wxy.learn.design.create.factory.component.Cpu;
-import com.wxy.learn.design.create.factory.component.Mainboard;
+import com.wxy.learn.design.create.abstractfactory.component.Cpu;
+import com.wxy.learn.design.create.abstractfactory.component.Mainboard;
 
 public interface AbstractFactory {
     /**

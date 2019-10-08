@@ -1,4 +1,4 @@
-package com.wxy.learn.design.create.factory.component;
+package com.wxy.learn.design.create.abstractfactory.component;
 
 /**
  * Cpu接口
