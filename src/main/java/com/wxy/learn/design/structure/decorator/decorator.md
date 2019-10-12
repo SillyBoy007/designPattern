@@ -45,3 +45,4 @@
 ### 参考链接
 * [装饰器模式简介](https://www.runoob.com/design-pattern/decorator-pattern.html)
 * [《JAVA与模式》之装饰模式](https://www.cnblogs.com/java-my-life/archive/2012/04/20/2455726.html)
+* [装饰者模式和继承之间的关系和优劣](https://blog.csdn.net/qq_27093465/article/details/53323187)
