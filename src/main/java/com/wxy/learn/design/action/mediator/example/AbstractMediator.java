@@ -1,5 +1,8 @@
 package com.wxy.learn.design.action.mediator.example;
 
+/**
+ * 抽象中介者
+ */
 public abstract class AbstractMediator {
     protected AbstractCardPartner A;
     protected AbstractCardPartner B;

@@ -39,6 +39,11 @@
 * 3、在 LINUX 上运行 WINDOWS 程序。 
 * 4、JAVA 中的 jdbc。
 
+### 适配器模式理解
+* 适配器继承或依赖已有的对象，实现想要的目标接口。
+* 兼容多个不兼容的接口
+* 适配器不是在详细设计时添加的，而是解决正在服役的项目的问题。
+
 ###  5.参考链接
 * [适配器模式简介](https://www.runoob.com/design-pattern/adapter-pattern.html)
 * [《JAVA与模式》之适配器模式](https://www.cnblogs.com/java-my-life/archive/2012/04/13/2442795.html)

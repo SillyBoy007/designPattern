@@ -1,5 +1,8 @@
 package com.wxy.learn.design.action.mediator.example;
 
+/**
+ * 具体中介者
+ */
 public class Mediator extends AbstractMediator {
     public Mediator(AbstractCardPartner a, AbstractCardPartner b) {
         super(a, b);

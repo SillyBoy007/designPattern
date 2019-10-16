@@ -1,5 +1,8 @@
 package com.wxy.learn.design.action.mediator.example;
 
+/**
+ * 抽象同事类
+ */
 public abstract class AbstractCardPartner {
     public int Money;
 

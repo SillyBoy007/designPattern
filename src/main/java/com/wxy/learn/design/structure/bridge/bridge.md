@@ -34,6 +34,10 @@
 4、注意事项：对于两个独立变化的维度，使用桥接模式再适合不过了。
 5、JDBC驱动器
 
+### 桥接模式
+* 抽象部分与实现部分分离,抽象类依赖实现类
+* 在有多种可能会变化的情况下，用继承会造成类爆炸问题，扩展起来不灵活。
+
 ###  5.参考链接
 * [桥接模式简介](https://www.runoob.com/design-pattern/bridge-pattern.html)
 * [《JAVA与模式》之桥梁模式](https://www.cnblogs.com/java-my-life/archive/2012/05/07/2480938.html)

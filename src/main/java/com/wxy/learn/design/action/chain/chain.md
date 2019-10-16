@@ -40,6 +40,12 @@
 * 具体处理者(ConcreteHandler)角色：具体处理者接到请求后，可以选择将请求处理掉，或者将请求传给下家。由于具体处理者持有对下家的引用，因此，如果需要，具体处理者可以访问下家。
 
 
+### 责任链模式的理解
+* 降低耦合度。它将请求的发送者和接收者解耦。 
+* 处理消息的时候以过滤很多道。
+* 有多个对象可以处理同一个请求，具体哪个对象处理该请求由运行时刻自动确定。
+* JAVA WEB 中 Apache Tomcat 对 Encoding 的处理，Struts2 的拦截器，jsp servlet 的 Filter。
+
 ### 参考链接
 [责任链模式简介](https://www.runoob.com/design-pattern/chain-of-responsibility-pattern.html)
 [《JAVA与模式》之责任链模式](https://www.cnblogs.com/java-my-life/archive/2012/05/28/2516865.html)
